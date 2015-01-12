@@ -2,6 +2,7 @@ import com.twitter.finagle.httpx.Method
 import com.twitter.finagle.httpx.path._
 import com.twitter.finagle.{Httpx, Service}
 import com.twitter.util.{Future, Await}
+
 import io.finch._
 import io.finch.json.Json
 import io.finch.response._
